@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(208, 233, 254);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.con{
+    width: 1200px;
+    margin: auto;
+    padding: 15px
+}
+/*Титл*/
+header{
+    background-color: rgb(188, 224, 255);
+    border: 5px solid rgb(148, 204, 254);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.head_img{
+    width: 100px;
+    height: 100px;
+}
+
+.head_p{
+    color: rgb(36, 143, 230);
+    font-size: 30px;
+}
+
+.head_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Сезоны*/
+.sea{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.sea_texts{
+    color: rgb(43, 122, 192);
+    font-size: 22.5px;
+}
+
+.sea_title{
+    font-size: 50px;
+    color: rgb(11, 85, 150);
+}
+/*Расписание*/
+.rasp{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(180, 219, 254);
+    border-radius: 15px;
+}
+
+.rasp_texts{
+    color: rgb(43, 122, 192);
+    font-size: 22.5px;
+}
+
+.rasp_title{
+    font-size: 50px;
+    color: rgb(11, 85, 150);
+}
+
+.rasp_img{
+    width: 300px;
+    border-radius: 15px;
+}
+/*Одаа Правила*/
+.pr{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.pr_texts{
+    color: rgb(43, 122, 192);
+    font-size: 22.5px;
+}
+
+.pr_title{
+    font-size: 50px;
+    color: rgb(11, 85, 150);
+}
+
+.pr_img{
+    width: 320px;
+    border-radius: 15px;
+}
+/*Футер*/
+footer{
+    background-color: rgb(165, 213, 255);
+    color: rgb(30, 95, 152);
+    border-radius: 15px
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft_title{
+    font-size: 40px;
+}
+
+.ft_p{
+    margin-left: 120px;
+}
